@@ -1,0 +1,16 @@
+package demo;
+
+public class ClassRunSequence {
+	private String name;
+	private int age;
+	
+	public ClassRunSequence() {
+		name = "keay";
+		age = 14;
+	}
+	
+	public static void main(String[] args) {						//	1..程序的入口
+		ClassRunSequence obj = new ClassRunSequence();				//	2..new一个对象，调用ClassRunSequence的构造方法
+		System.out.println(obj.name + "的年龄是" + obj.age);
+	}
+}

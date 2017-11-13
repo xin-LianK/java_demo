@@ -1,0 +1,10 @@
+package demo;
+
+public class MethodOverload {
+	//	在Java中，同一个类中的多个方法可以有相同的名字，只要它们的参数列表不同就可以，这被称为方法重载
+//			参数列表又叫参数签名，包括参数的类型、参数的个数和参数的顺序，只要有一个不同就叫做参数列表不同。
+//			重载是面向对象的一个基本特性。
+	void test() {
+		System.out.println("No prebrem");
+	}
+}

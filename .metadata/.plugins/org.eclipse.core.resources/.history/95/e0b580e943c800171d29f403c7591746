@@ -1,0 +1,15 @@
+package demo;
+
+public class ClassRunSequence {
+	private String name;
+	private int age;
+	
+	public ClassRunSequence() {
+		name = "keay";
+		age = 14;
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

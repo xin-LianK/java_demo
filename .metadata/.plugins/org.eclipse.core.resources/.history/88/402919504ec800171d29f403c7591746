@@ -1,0 +1,6 @@
+package demo;
+
+public class DeclarationRule {
+//	当在一个源文件中定义多个类，并且还有import语句和package语句时，要特别注意这些规则：
+		1.一个源文件中只能有一个public类。
+}

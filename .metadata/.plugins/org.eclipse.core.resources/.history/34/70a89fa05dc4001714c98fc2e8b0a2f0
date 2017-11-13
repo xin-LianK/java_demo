@@ -1,0 +1,20 @@
+package demo;
+
+//public 是类的修饰符，表明该类是公共类，可以被其他类访问。修饰符将在下节讲解。
+//class 是定义类的关键字。
+//Dog 是类名称。
+//name、age 是类的成员变量，也叫属性；bark()、hungry() 是类中的函数，也叫方法。
+
+public class Dog {
+	String name;
+	int age;
+	
+	void bark() {
+		String in;
+		System.out.println("旺旺，不要过来....");
+	}
+	
+	void hungry() {
+		System.out.println("主人，我饿了......");
+	}
+}

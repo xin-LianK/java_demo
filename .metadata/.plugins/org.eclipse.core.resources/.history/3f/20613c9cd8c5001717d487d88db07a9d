@@ -1,0 +1,17 @@
+package demo;
+
+public class Modifier {
+	//body of class  修饰符
+	
+	// 访问修饰符
+//			访问控制符		能够控制类，成员变量，方法的使用权限的关键字
+				
+	// 非访问修饰符
+	
+}
+private boolean myFlag;
+static final double weeks = 9.5;
+protected static final int BOXWIDTH = 45;
+public static void main(String[] args) {
+	//body of method
+}

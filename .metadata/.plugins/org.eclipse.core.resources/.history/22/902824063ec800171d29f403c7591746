@@ -1,0 +1,18 @@
+package demo;
+
+public class This {
+	public int x = 10;
+	public int y = 15;
+	
+	public void sun() {
+		//通过this来点取成员变量
+		int z = this.x + this.y;
+		
+		System.out.println("x + y =" + z);
+	}
+	
+	public static void main(String[] args) {
+		This obj = new This();
+		obj.sun();
+	}
+}

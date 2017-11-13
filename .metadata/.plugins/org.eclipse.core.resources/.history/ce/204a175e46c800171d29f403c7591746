@@ -1,0 +1,17 @@
+package demo;
+
+public class PackClass {
+//	Java为每种基本数据类型分别设计了对应的类，称之为包装类(Wrapper Classes)，也有教材称为外覆类或数据类型类
+//	
+//			基本数据类型		对应的包装类
+//			byte			Byte
+//			short			Short
+//			int				Int
+//			long			Long
+//			char			Char
+//			float			Float
+//			double			Double
+//			boolean			Boolean
+	
+	
+}
