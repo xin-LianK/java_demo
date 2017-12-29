@@ -1,0 +1,6 @@
+package demo;
+
+public class StaticMethod {
+//	静态方法是一种不能向对象实施操作的方法。
+//		例如，Math 类的 pow() 方法就是一个静态方法，语法为 Math.pow(x, a)，用来计算 x 的 a 次幂，在使用时无需创建任何 Math 对象。
+}

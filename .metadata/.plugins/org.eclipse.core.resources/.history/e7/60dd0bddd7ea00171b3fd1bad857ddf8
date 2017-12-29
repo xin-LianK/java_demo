@@ -1,0 +1,5 @@
+package demo;
+//面向字节的输入输出流
+public class ByteStream {
+	
+}

@@ -1,0 +1,10 @@
+package demo;
+
+class clicker implements Runnable{
+	int click = 0;
+	Thread t;
+	
+}
+public class Priority {
+	
+}

@@ -1,0 +1,19 @@
+package demo;
+import java.io.*;
+public class IntSum {
+	public static void main(String args[]){
+        String fileName="D:\\myjava/ep10_7.dat";
+        int sum=0;
+        try{
+            DataInputStream a=new DataInputStream(new BufferedInputStream(new FileInputStream(fileName)));
+            sum+=a.readInt();
+            sum+=a.readInt();
+            sum+=a.readInt();
+            System.out.println("三个数的和为："+sum);
+            a.close();
+        }
+        catch(IOException e){
+            System.out.println("出现错误！"+fileName);
+        }
+    }
+}

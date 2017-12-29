@@ -1,0 +1,7 @@
+package demo;
+import java.lang.*; //主要是含语言方面的，包由解释程序自动加载，不需要显示说明
+import java.io.*; //主要含有与输入/输出相关的类，这些类提供了对不同的输入和输出设备读写数据的支持，这些输入和输出设备包括键盘、显示器、打印机、磁盘文件等。
+import java.util.*;
+public class Bao {
+
+}

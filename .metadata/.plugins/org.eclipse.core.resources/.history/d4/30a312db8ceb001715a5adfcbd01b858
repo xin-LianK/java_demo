@@ -1,0 +1,5 @@
+package demo;
+import java.lang.*; //主要是含语言方面的，包由解释程序自动加载，不需要显示说明
+public class Bao {
+
+}

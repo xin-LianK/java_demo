@@ -1,0 +1,10 @@
+package demo;
+
+public class Finally {
+	static void procA() {
+		try {
+			System.out.println("inside procA");
+			
+		}
+	}
+}

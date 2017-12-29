@@ -1,0 +1,18 @@
+package demo;
+
+public class Finally {
+	static void procA() {
+		try {
+			System.out.println("inside procA");
+			throw new RuntimeException("demo");
+		}finally {
+			System.out.println("procA`s finally");
+		}
+	}
+	
+	static void procB() {
+		try {
+			
+		}
+	}
+}

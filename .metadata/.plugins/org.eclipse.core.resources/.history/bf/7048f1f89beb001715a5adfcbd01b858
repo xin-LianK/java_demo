@@ -1,0 +1,10 @@
+package demo;
+
+public class Date {
+	public static void main(String[] args) {
+		Date ti = new Date();
+		System.out.println(ti);
+		long msec = ti.getTime();
+		System.out.println("");
+	}
+}

@@ -1,0 +1,20 @@
+package demo;
+import java.io.*;
+//	将三个 int 型数字 100，0，-100 写入数据文件 ep10_6.dat 中
+public class Communication {
+	public static void main(String args[]){
+        String fileName="22.dat";
+        int value1=100,value2=0,value3=-100;
+        try{
+            //将 DataOutputStream 与 FileOutputStream 连接输出不同类型的数据
+            DataOutputStream a=new DataOutputStream(new FileOutputStream(fileName));
+            a.writeInt(value1);
+            a.writeInt(value2);
+            a.writeInt(value3);
+            a.close();
+        }
+        catch(IOException i){
+            System.out.println("出现错误!"+fileName);
+        }
+    }
+}

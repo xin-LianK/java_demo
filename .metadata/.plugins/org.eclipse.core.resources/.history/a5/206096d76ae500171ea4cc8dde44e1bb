@@ -1,0 +1,14 @@
+package demo;
+
+class clicker implements Runnable{
+	int click = 0;
+	Thread t;
+	private volatile boolean running = true;
+	public clicker(int p) {
+		t = new Thread(this);
+		t.setPriority(p);
+	}
+}
+public class Priority {
+	
+}

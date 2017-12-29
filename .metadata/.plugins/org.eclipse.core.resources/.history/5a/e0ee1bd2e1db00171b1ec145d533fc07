@@ -1,0 +1,8 @@
+package demo;
+
+public class Throws {
+	static void throwOne() {
+		System.out.println("InSide throwOne");
+		
+	}
+}

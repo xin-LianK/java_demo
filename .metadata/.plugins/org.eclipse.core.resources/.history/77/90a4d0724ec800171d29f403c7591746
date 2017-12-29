@@ -1,8 +1,0 @@
-package demo;
-
-public class DeclarationRule {
-//	当在一个源文件中定义多个类，并且还有import语句和package语句时，要特别注意这些规则：
-//		1.一个源文件中只能有一个public类。
-//		2.一个源文件可能由多个非public类。
-//		3.源文件的名称应该和public类的类名保持一致。例如：源文件中public类的类名是Demo,那么源文件应该命名为Demo.java。
-}

@@ -1,0 +1,23 @@
+package demo;
+
+public class CurrentThread {
+	public static void main(String[] args) {
+		Thread t = Thread.currentThread();
+		System.out.println("Current thread: " + t);
+		
+		t.setName("My Thread");
+		System.out.println("After name change:" + t);
+		try {
+			for(int n = 5; n > 0; n--) {
+				System.out.println(n);
+				Thread.sleep(1000);
+			}
+		}catch (InterruptedException e) {
+			System.out.println("Main thread interrupted");
+		}
+	}
+}
+//在本程序中，当前线程（自然是主线程）的引用通过调用currentThread()获得，该引用保存在局部变量t中。
+//然后，程序显示了线程的信息。接着程序调用setName()改变线程的内部名称。线程信息又被显示。
+//然后，一个循环数从5开始递减，每数一次暂停一秒。暂停是由sleep()方法来完成的。
+//Sleep()语句明确规定延迟时间是1毫秒。注意循环外的try/catch块。
